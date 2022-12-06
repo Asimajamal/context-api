@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,113 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* Home */
+.Movies-container{
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  row-gap: 2rem;
+  column-gap: 2rem;
+  justify-content: center;
+  margin-top: 4rem;
+  margin-bottom: 10rem;
+}
+
+.Movie-card{
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 20px;
+  height: 15rem;
+  width: 10rem;
+
+}
+.card-info img{
+  height: 12rem;
+  
+  border-radius: 20px;
+  
+}
+
+.card-info h2{
+font-size:13px;
+  
+ 
+
+}
+a:hover .Movie-card{
+  background-color: rgb(75, 71, 71);
+  color: white;
+
+}
+a:hover img{
+  transform:scale(1.1);
+}
+a:hover h2{
+ transform: translateY(-1rem);
+}
+
+.navlink{
+  text-decoration: none;
+}
+
+/* Search */
+
+.search-container{
+
+text-align: center;
+}
+
+.search input{
+  width: 30rem;
+ 
+  border-radius: 20px;
+  padding: 10px;
+}
+.errorMsg{
+  margin-top: 5px;
+  color: red;
+}
+
+/* Single Movie Page */
+
+.SingleMovie-Container{
+   display: flex;
+ padding: 2rem;
+  /* border: 1px solid black; */
+  width: 30rem;
+  background-color: rgb(251, 251, 245);
+  margin:10rem 30rem;
+  border-radius: 5px;
+  box-shadow:  1px 4px 4px rgb(141, 138, 138);
+
+}
+.singleMovie-image img{
+  height: 20rem;
+  border-radius: 5px;
+  margin: 12px;
+
+}
+.movie-card{
+  margin-top: 1rem;
+}
+
+.back-btn{
+background-color: rgb(30, 26, 26);
+color: rgb(252, 251, 251);
+padding: 7px 20px;
+text-decoration: none;
+border-radius: 5px;
+
+}
+.back{
+  margin-top: 2rem;
+}
+
+/* Loading */
+
+.Loading{
+  text-align: center;
+  margin-top: 20rem;
 }
